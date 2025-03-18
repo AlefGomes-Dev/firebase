@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #f4f4f4;
+    height: 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #333;
+}
+
+h1, h2{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul{
+    list-style-type: none;
+}
+
+header nav ul li{
+    display: inline-block;
+    margin: 0 10px;
+    padding: 0 60px;
+}
+
+a{
+    text-decoration: none;
+    color: #333;
+}
+
+.header-interface{
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.aboutMe{
+    text-align: justify;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: #cad6d5;
+    padding: auto;
+    max-width: 50%;
+    color: #333;
+}
+
+.profile{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.container{
+    padding: 15px;
+    display: flex;
+    margin: auto;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.linkedin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: #cad6d5;
+    padding: 15px;
+}
+
+.github{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: #cad6d5;
+    padding: 15px;
+}
+
+#gthblogo{
+    height: 40px;
+    width: 40px;
+}
+
+#lnklogo{
+    height: 40px;
+    width: 40px;
+}
